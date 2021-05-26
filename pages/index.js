@@ -13,44 +13,24 @@ import MediaCard from '../components/Cards'
 export default function Home() {
   return (
     <div className="App">
-
+    <Container maxWidth="100%">
       <Header />
       <main>
 
-        <Container maxWidth="sm">
-          <Grid
-            container
-            direction="row"
-            justify="center"
-            alignItems="center"
-            container spacing={2}
-          >
-            <Grid item xs>
-              <Grid
-                container
-                direction="row"
-                justify="center"
-                alignItems="center"
-                container spacing={2}
-              >
-                <Grid item xs>
-                  <MediaCard />
-                </Grid>
-                <Grid item xs>
-                  <MediaCard />
-                </Grid>
-                <Grid item xs>
-                  <MediaCard />
-                </Grid>
-              </Grid>
-            </Grid>
-            <Grid item xs >
-              <CenteredGrid />
-            </Grid>
+        <Container maxWidth="90%">
+            <Grid
+              container
+              direction="column"
+              justify="flex-start"
+              alignItems="flex-start">
+                <MediaCard></MediaCard>
+                <MediaCard></MediaCard>
           </Grid>
+
         </Container>
       </main>
       <StickyFooter />
+    </Container>  
     </div >
   );
 }

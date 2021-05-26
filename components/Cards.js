@@ -25,7 +25,7 @@ export default function MediaCard() {
             <CardActionArea>
                 <CardMedia
                     className={classes.media}
-                    image="https://lh3.googleusercontent.com/xpLPR6O2VQEiUAxkjsa-pMd6HFls1BxKg-hfPYlBGB7GIJ9KPHEOGNsSiQq21-BKKFLr5Z9eH1E-JMMDhpfErozGIKXuLhnFi3fn0xY=w1064-v0"
+                    image="https://notarius53.ru/static/i/2017/11/2GtgS_l.jpg"
                     title="Contemplative Reptile"
                 />
                 <CardContent>
@@ -33,17 +33,16 @@ export default function MediaCard() {
                         Lizard
           </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
-                        Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging
-                        across all continents except Antarctica
+                        Команда является резидентом Парка Высоких Технологий и занимается разработкой программного обеспечения для исследования и определения направленности интереса людей в сети.
           </Typography>
                 </CardContent>
             </CardActionArea>
             <CardActions>
                 <Button size="small" color="primary">
-                    Share
+                    Вступить в команду
         </Button>
                 <Button size="small" color="primary">
-                    Learn More
+                    Узнать больше
         </Button>
             </CardActions>
         </Card>
