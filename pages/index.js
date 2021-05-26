@@ -12,26 +12,40 @@ import CenteredGrid from '../components/Filter';
 import MediaCard from '../components/Cards'
 export default function Home() {
   return (
-    <div className="App">
+    
     <Container maxWidth="100%">
       <Header />
       <main>
-
+    <div class="App">
         <Container maxWidth="90%">
-            <Grid
-              container
-              direction="column"
-              justify="flex-start"
-              alignItems="flex-start">
-                <MediaCard></MediaCard>
-                <MediaCard></MediaCard>
-          </Grid>
+          <div class="conteiner">
+          <div class="cardBlock">
 
+          
+          <div class="cardColumn">
+                <MediaCard></MediaCard>
+                <MediaCard></MediaCard>
+                <MediaCard></MediaCard>
+                <MediaCard></MediaCard>
+                <MediaCard></MediaCard>
+                <MediaCard></MediaCard>
+          </div>
+          
+          
+          </div>    
+          <div class="marginFilter">
+          <div class="filterBlock">
+            
+          <Filter></Filter>
+          </div>
+          </div>
+          </div>
         </Container>
+        </div >
       </main>
       <StickyFooter />
     </Container>  
-    </div >
+    
   );
 }
 

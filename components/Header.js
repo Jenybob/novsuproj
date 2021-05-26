@@ -10,7 +10,7 @@ import {
 } from "@material-ui/core";
 import MenuIcon from "@material-ui/icons/Menu";
 import React, { useState, useEffect } from "react";
-import { Link } from "next/link";
+import { Link } from 'next/link';
 
 const headersData = [
     {

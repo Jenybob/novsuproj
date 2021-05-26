@@ -10,7 +10,8 @@ import Typography from '@material-ui/core/Typography';
 
 const useStyles = makeStyles({
     root: {
-        maxWidth: 600,
+        
+        marginTop: '0.8rem'
     },
     media: {
         height: 140,
@@ -30,11 +31,19 @@ export default function MediaCard() {
                 />
                 <CardContent>
                     <Typography gutterBottom variant="h5" component="h2">
-                        Lizard
+                        Команда: Future
           </Typography>
                     <Typography variant="body2" color="textSecondary" component="p">
                         Команда является резидентом Парка Высоких Технологий и занимается разработкой программного обеспечения для исследования и определения направленности интереса людей в сети.
           </Typography>
+          
+                    <div class="tags">
+                        <ul>
+                            <li class="firstTag">Инженеры</li>
+                            <li class="secondTag">Приложение</li>
+                        </ul>
+                    </div>
+                    <div class="university">ИЭИС</div>
                 </CardContent>
             </CardActionArea>
             <CardActions>
