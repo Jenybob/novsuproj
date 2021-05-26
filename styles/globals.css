@@ -27,21 +27,43 @@ a {
 }
 .marginFilter {
   margin-top: 0.8em;
-  margin-left: 3%;
-  max-width: 300px;
 }
+@media screen and (max-width: 1840px) {
+  .cardBlock {
+    max-width: 60%;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .cardBlock {
+    max-width: 30%;
+  }
+}
+@media screen and (max-width: 920px) {
+  .filterBlock {
+    display: none;
+  }
+  .cardBlock {
+    max-width: 100%;
+  }
+  .filterShow {
+    display: block;
+  }
+}
+
 .filterBlock {
   position: fixed;
+  right: 1%;
   max-width: 340px;
   margin-right: 5%;
+}
+.filterShow {
+  display: none;
 }
 .cardColumn {
   margin-left: 20px;
   margin-right: 20px;
 }
-.App {
-  width: 87%;
-}
+
 * {
   box-sizing: border-box;
 }

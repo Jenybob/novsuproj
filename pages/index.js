@@ -17,6 +17,9 @@ export default function Home() {
       <Header />
       <main>
     <div class="App">
+      <div class="filterShow">
+      <Filter ></Filter>
+      </div>
         <Container maxWidth="90%">
           <div class="conteiner">
           <div class="cardBlock">
